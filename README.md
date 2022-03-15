@@ -1,14 +1,6 @@
-# Project
+# Synapse Best Practice Analyzer Report
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
-
-As the maintainer of this project, please make a few updates:
-
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+The Synapse Best Practice Analyzer (BPA) Report was created to help you identify common issues that may be present in your database that can lead to performance issues. This report focuses on known best practices that Microsoft has identified with SQL Dedicated Pools. Following these best practices will help to get the best performance out of your solution. The Synapse Best Practice Analyzer Report should help give you insights into the health of your database. We will continue to update the report to call out defined best practices that Microsoft has defined.
 
 ## Contributing
 
