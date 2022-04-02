@@ -4,8 +4,8 @@ You can install and use Power BI Desktop to access Power BI Desktop template (.p
 
 1. From this GitHub location, download a Power BI template (.pbit) file named [**Synapse best practice analyzer.pbit**](./Synapse%20best%20practice%20analyzer.pbit "Synapse best practice analyzer.pbit"). 
 2. You can use this pbit file through Power BI desktop (latest build). 
-3. This step by step [installation guide](./InstallationGuide.md "Installation Guide") will help you on installation, configuration and refresh of the report. 
-4. If you face any errors in the process, the [troubleshooting guide](./TroubleshootingGuide.md "troubleshooting guide") will help you troubleshoot some of the common scenarios.
+3. This step by step [installation guide](./InstallationGuide.md "InstallationGuide.md") will help you on installation, configuration and refresh of the report. 
+4. If you face any errors in the process, the [troubleshooting guide](./TroubleshootingGuide.md "TroubleshootingGuide.md") will help you troubleshoot some of the common scenarios.
 
 Below explains steps to install and run this report using Power BI template file (.pbit) from this location.
 
