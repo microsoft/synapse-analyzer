@@ -1,16 +1,23 @@
 # Using Power BI Template (.pbit) for Synapse Best Practice Report
 
-You can download Power BI template file (*.pbit) from this location. You can then use this pbit file through Power BI desktop (latest build) to configure connection parameters and run report.
+You can install and use Power BI Desktop to access Power BI Desktop template (.pbit) file.
+
+1. From this GitHub location, download a Power BI template (.pbit) file named [**Synapse best practice analyzer.pbit**](./Synapse%20best%20practice%20analyzer.pbit "Synapse best practice analyzer.pbit"). 
+2. You can use this pbit file through Power BI desktop (latest build). 
+3. The step by step [installation guide](./InstallationGuide.md "Installation Guide") will help you on installation, configuration and refresh of the report. 
+4. If you face any errors in the process, the [troubleshooting guide](./TroubleshootingGuide.md "troubleshooting guide") will help you troubleshoot some of the common scenarios.
 
 Below explains steps to install and run this report using Power BI template file (.pbit) from this location.
 
 ## Prerequisite
+
 1. Latest version of Power BI Desktop App from [Microsoft Store](https://aka.ms/pbidesktopstore "Microsoft Store") on your PC. To configure Power BI desktop using Power BI desktop template (.pbit) file you need permission on your PC to run Power BI desktop.
 2. Sysadmin privileges are required to capture information from Synapse dedicated pool. The person setting up refresh, and the credentials used for refresh, should have admin rights on Synapse Dedicated pool and its databases.
 3. Consumers of this Report, however, could be non-admin based on who the report is shared with. 
 
 ## Installation
-1. IF not already done, install latest version of Power BI Desktop (Feb-2022 or greater).
+
+1. If not already done, install latest version of Power BI Desktop (Mar-2022 or greater).
 
 ![Install Power BI Desktop](./img/Install-Power-BI-Desktop.png "Install Power BI Desktop")
 
