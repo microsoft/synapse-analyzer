@@ -7,6 +7,7 @@ The Azure Synapse Analyzer Report was created to help you identify common issues
 This report provides key information around Table and Index storage for your Synapse Dedicated Pool (DW) database. 
 
 The report has following main pages:
+
 	- About
 	- Issue Tables
 	- All Tables
