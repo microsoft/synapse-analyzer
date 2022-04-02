@@ -72,7 +72,7 @@ The 5 rules that have been incorporated today are:
 
 You can install and use Power BI Desktop to access Power BI Desktop template (.pbit) file.
 
-1. From this GitHub location, download a Power BI template (.pbit) file named **Synapse best practice analyzer.pbit**. 
+1. From this GitHub location, download a Power BI template (.pbit) file named [**Synapse best practice analyzer.pbit**](./Synapse%20best%20practice%20analyzer.pbit "Synapse best practice analyzer.pbit"). 
 2. You can use this pbit file through Power BI desktop (latest build). 
 3. The step by step [installation guide](./InstallationGuide.md "Installation Guide") will help you on installation, configuration and refresh of the report. 
 4. If you face any errors in the process, the [troubleshooting guide](./TroubleshootingGuide.md "troubleshooting guide") will help you troubleshoot some of the common scenarios.
@@ -87,7 +87,7 @@ Consumers of this Report, however, could be non-admin based on who the report is
 
 ## Schedule Refresh from Power BI Service (Optional)
 
-While you can use Power BI desktop report occasionally, for scheduled report and broader access to the report, we recommend publishing report to Power BI Service using Publish option in Power BI desktop. To publish pbix file to Power BI service and refresh dataset from service user need Power BI Pro user privileges. Publish Azure Synapse Analyzer Report to Power BI service provides step-by-step instructions.
+While you can use Power BI desktop report occasionally, for scheduled report and broader access to the report, we recommend publishing report to Power BI Service using Publish option in Power BI desktop. To publish pbix file to Power BI service and refresh dataset from service user need Power BI Pro user privileges. [Publish Azure Synapse Analyzer Report to Power BI service](./PublishToPowerBIService.md "Publish Azure Synapse Analyzer Report to Power BI service") provides step-by-step instructions.
 
 Please note: While setting up refresh of dataset in Power BI Service, the credentials used for refresh, should have admin rights on Synapse Dedicated pool and its databases.
 
