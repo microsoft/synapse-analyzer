@@ -1,6 +1,6 @@
 # Azure Synapse Analyzer Report to monitor and improve Synapse Dedicated Pool performance
 
-The Azure Synapse Analyzer Report was created to help you identify common issues that may be present in your database that can lead to performance issues. This report focuses on known best practices that Microsoft has identified with SQL Dedicated Pools. Following these best practices will help to get the best performance out of your solution.
+The Azure Synapse Analyzer Report is created to help you identify common issues that may be present in your database that can lead to performance issues. This report focuses on known best practices that Microsoft has identified with SQL Dedicated Pools. Following these best practices will help to get the best performance out of your solution.
 
 ## Report Details
 
@@ -79,11 +79,11 @@ You can install and use Power BI Desktop to access Power BI Desktop template (.p
 
 ## Required Permissions
 
-To configure Power BI desktop using Power BI desktop template (.pbit) file you need permission on your PC to run Power BI desktop.
+- To configure Power BI desktop using Power BI desktop template (.pbit) file you need permission on your PC to run Power BI desktop.
 
-To connect to Azure Synapse Dedicated Pool data warehouse endpoint and refresh report you need to provide data source credentials. For those credentials Sysadmin privileges are required to capture information from Synapse dedicated pool. 
+- To connect to Azure Synapse Dedicated Pool data warehouse endpoint and refresh report you need to provide data source credentials. For those credentials Sysadmin privileges are required to capture information from Synapse dedicated pool. 
 
-Consumers of this Report, however, could be non-admin based on who the report is shared with. 
+- Consumers of this Report, however, could be non-admin based on who the report is shared with. 
 
 ## Schedule Refresh from Power BI Service (Optional)
 
