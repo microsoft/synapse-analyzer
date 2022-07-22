@@ -91,6 +91,10 @@ While you can use Power BI desktop report occasionally, for scheduled report and
 
 Please note: While setting up refresh of dataset in Power BI Service, the credentials used for refresh, should have admin rights on Synapse Dedicated pool and its databases.
 
+## Update to Version 2.0
+
+New version of Synapse Analyzer Report has been uploaded. It includes reports related to Workload Management in Azure Synapse Analytics Dedicated SQL Pool. Please refer to [Updates to Synapse Analyzer Report](./UpdatestoSynapseAnalyzerReport.md "UpdatestoSynapseAnalyzerReport.md") document for more details. 
+
 ## Summary 
 
 The Azure Synapse Analyzer Report should help give you insights into the health of your Azure Synapse Dedicated Pool database. We will continue to update the report to call out defined best practices that Microsoft has defined. 
