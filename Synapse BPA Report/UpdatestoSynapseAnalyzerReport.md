@@ -19,14 +19,17 @@ Following is the brief description for the Workload Management report page.
 ### Workload Management: 
 This page provides information on workload management and related settings in Synapse dedicated pool. It highlights some of the common warnings admins should be aware of when setting the resource and request percentage for effective workload governance. Please review issues and warnings on this page to ensure you are using optimal strategy for your workload groups and classifiers. At any time you can click on ? icon on the visual to view more details on the guidance. 
 
-### WLM Issue Summary: This table provides summary of all issues detected in your WLM environment. You can hover on each issue to find brief description and / or click on issue to find groups affected by respective issue. You can also click on URL link to find more information about workload management.
+### WLM Issue Summary: 
+This table provides summary of all issues detected in your WLM environment. You can hover on each issue to find brief description and / or click on issue to find groups affected by respective issue. You can also click on URL link to find more information about workload management.
 
-### Group Details: The table provides details for each workload group. Groups highlighted suggest there exist one or more issues for that group. You can hover on the groups flagged to find issues identified for that group. 
+### Group Details: 
+The table provides details for each workload group. Groups highlighted suggest there exist one or more issues for that group. You can hover on the groups flagged to find issues identified for that group. 
 - Flag for effective values suggests there is mismatch between config and effective value at request or resource level. 
 - Flag on request min config suggests mismatch in request min vs request max values. 
 - Flag on resource min config suggests deviations in resource min configurations.
 
-### Requests / Timeouts Summary: The table provides snapshot of requests and timeouts summary at the time when data was last refreshed / updated. 
+### Requests / Timeouts Summary: 
+The table provides snapshot of requests and timeouts summary at the time when data was last refreshed / updated. 
 
 The table below provides details on issues that have been added for workload management. 
 
@@ -46,10 +49,11 @@ The table below provides details on issues that have been added for workload man
 With this update we are also bringing a parallel copy of Synapse Analyzer report specifically targeted towards scenarios where Synapse Dedicated Pool database has greater than 20K tables and the normal refresh of synapse analyzer report times out after long period (greater than 5 hours)
 
 For this version of the report the Synapse Admin has to run the Create table script on the dedicated Pool database which is being analyzed. The script will 
-a. Create new schema named “SynapseAnalyzer” under same database
-b. Execute Create Table as Select (CTAS) statements to create tables in SynapseAnalyzer schema and prepopulate it with details from the same database. 
-c. These tables are then used as source for the Power BI template file “Synapse best practice analyzer_with_CTAS.pbit” 
-d. The PBI template will then connect to SynapseAnalyzer schema and pull all the information from the tables that are prepopulated in above steps.  
+
+- a. Create new schema named “SynapseAnalyzer” under same database
+- b. Execute Create Table as Select (CTAS) statements to create tables in SynapseAnalyzer schema and prepopulate it with details from the same database. 
+- c. These tables are then used as source for the Power BI template file “Synapse best practice analyzer_with_CTAS.pbit” 
+- d. The PBI template will then connect to SynapseAnalyzer schema and pull all the information from the tables that are prepopulated in above steps.  
 
 **Important**: You need to run the scripts in given order.
 
@@ -59,19 +63,17 @@ d. The PBI template will then connect to SynapseAnalyzer schema and pull all the
 ## Fixed error during desktop refresh 
 For many users, running load data through Power BI desktop, the “Load Data” used to turn out into following error. 
 
-All Tables
-Loading blocked by failures with other queries.
-ColumnstoreDensity
-Query 'ColumnstoreDensity' (step 'Expanded All Tables') references other queries or steps, so it may not directly access a data source. Please rebuild this data combination.
-StatsSummary
-Loading blocked by failures with other queries.
-TableSizes
-Query 'TableSizes' (step 'Expanded All Tables') references other queries or steps, so it may not directly access a data source. Please rebuild this data combination.
-…
+    All Tables
+    Loading blocked by failures with other queries.
+    ColumnstoreDensity
+    Query 'ColumnstoreDensity' (step 'Expanded All Tables') references other queries or steps, so it may not directly access a data source. Please rebuild this data combination.
+    StatsSummary
+    Loading blocked by failures with other queries.
+    TableSizes
+    Query 'TableSizes' (step 'Expanded All Tables') references other queries or steps, so it may not directly access a data source. Please rebuild this data combination.
+    …
 
-While there was a details section in Troubleshooting document on github location for troubleshooting this error, the overall first experience with tool was not optimal.
-
-With a new version of Synapse Analyzer report we have fixed this issue so you should not be getting the above error.
+While there was a details section in Troubleshooting document on github location for troubleshooting this error, the overall first experience with tool was not optimal. With a new version of Synapse Analyzer report we have fixed this issue so you should not be getting the above error.
 
 In future we plan to continue with more features and reports.
 
