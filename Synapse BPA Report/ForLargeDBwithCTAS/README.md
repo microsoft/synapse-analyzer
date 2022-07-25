@@ -3,6 +3,8 @@
 ## CTAS version for XL data warehouses
 With this update we are also bringing a parallel copy of Synapse Analyzer report specifically targeted towards scenarios where Synapse Dedicated Pool database has greater than 20K tables and the normal refresh of synapse analyzer report times out after long period (greater than 5 hours)
 
+![Synapse Analyzer with CTAS](../img/Synapse-Analyzer-with-CTAS-Tables-About-Page.png "Synapse Analyzer with CTAS")
+
 For this version of the report the Synapse Admin has to run the Create table script on the dedicated Pool database which is being analyzed. The script will 
 
 - a. Create new schema named “SynapseAnalyzer” under same database
