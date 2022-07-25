@@ -2,6 +2,10 @@
 
 The Azure Synapse Analyzer Report is created to help you identify common issues that may be present in your database that can lead to performance issues. This report focuses on known best practices that Microsoft has identified with SQL Dedicated Pools. Following these best practices will help to get the best performance out of your solution.
 
+## Updated to Version 2.0
+
+New version of Synapse Analyzer Report has been updated. Along with following detials, it includes reports related to **Workload Management** in Azure Synapse Analytics Dedicated SQL Pool. Please refer to [Updates to Synapse Analyzer Report](./UpdatestoSynapseAnalyzerReport.md "UpdatestoSynapseAnalyzerReport.md") document to know what is included in the new update. If you are reading it for the first time, then for overview of the overall report, please read through below before going to update section.
+
 ## Report Details
 
 This report provides key information around Table and Index storage for your Synapse Dedicated Pool (DW) database. 
